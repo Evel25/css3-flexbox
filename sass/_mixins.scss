@@ -1,0 +1,9 @@
+@mixin transition {
+    transition: all ease-in-out .5s;
+}
+
+@mixin sm-shadow {
+    background-color: $cardColor;
+    border-radius: 0px;
+    border: 1px solid $navShadowColor;
+}
